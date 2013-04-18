@@ -10,11 +10,7 @@ var homePage =
             '<ul class="list">' +
                 '<li><a href="#page1"><strong>General Information</strong></a></li>' +
                 '<li><a href="#page2"><strong>Videos</strong></a></li>' +
-                '<li><a href="#page3"><strong>Listings</strong></a></li>' +
-                '<li><a href="#page4"><strong>Offers</strong></a></li>' +
-                '<li><a href="#page5"><strong>News</strong></a></li>' +
-                '<li><a href="#page6"><strong>Events</strong></a></li>' +
-                '<li><a href="#page7"><strong>Weather</strong></a></li>' +    
+                '<li><a href="#page3"><strong>Listings</strong></a></li>' +  
             '</ul>' +
         '</div>' +
     '</div>';

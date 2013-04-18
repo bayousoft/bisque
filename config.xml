@@ -21,18 +21,18 @@
 -->
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.coenraets.pageslider"
+        id        = "com.metrofessional.pageslider"
         versionCode="10" 
         version   = "1.0.0">
 
-    <name>Page Slider</name>
+    <name>Bisque</name>
 
     <description>
-        An application demonstrating hardware accelerated page transitions. 
+        A framework using hardware accelerated page transitions. 
     </description>
 
-    <author href="https://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="https://metrofessional.com" email="ryan@metrofessional.com">
+        Ryan LeTulle
     </author>
 
 
