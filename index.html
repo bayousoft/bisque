@@ -9,11 +9,41 @@
 
 <div id="container"></div>
 
-<script src="lib/cordova-2.5.0.js"></script>
-<script src="lib/fastclick.js"></script>
-<script src="lib/jquery-1.9.1.min.js"></script>
-<script src="pageslider.js"></script>
-<script src="app.js"></script>
+<!-- Mustache templates -->
+<script id="homeTpl" type="text/template">
+	<div>
+		<div class="header"><h1>Bisque</h1></div>
+			<div class="scroller">		
+				<ul class="list">
+				<li><a href="#page1"><strong>General Information</strong></a></li>
+				<li><a href="#page2"><strong>Videos</strong></a></li>
+				<li><a href="#page3"><strong>Listings</strong></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</script>
+<script id="pageTpl" type="text/template">
+	<div>
+		<div class="header"><a href="#" class="btn">Back</a><h1>Bisque</h1></div>
+			<div class="scroller">
+				<div class="page">
+					<img src="images/{{img}}"/>
+					<h2>{{name}}</h2>
+							<p>{{description}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+<!---->
+
+<script src="js/lib/cordova-2.5.0.js"></script>
+<script src="js/lib/fastclick.js"></script>
+<script src="js/lib/jquery-1.9.1.min.js"></script>
+<script src="js/lib/mustache.js"></script>
+<script src="js/lib/pageslider.js"></script>
+<script src="js/app-dev.js"></script>
 
 </body>
 </html>

@@ -44,6 +44,7 @@ a {
     background-color: #0984c6;
     border: 1px solid #0e5895;
     border-radius: 2px;
+    z-index:100;
 }
 
 .header a:active {
@@ -83,7 +84,7 @@ a {
 }
 
 .page {
-    padding: 12px;
+    padding: 50px 12px;
 }
 
 .page > img {
