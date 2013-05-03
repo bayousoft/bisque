@@ -21,14 +21,14 @@
 -->
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.metrofessional.pageslider"
+        id        = "com.metrofessional.roux"
         versionCode="10" 
         version   = "1.0.0">
 
     <name>Bisque</name>
 
     <description>
-        A framework using hardware accelerated page transitions. 
+        Roux is a framework for building Phonegap applications. 
     </description>
 
     <author href="https://metrofessional.com" email="ryan@metrofessional.com">

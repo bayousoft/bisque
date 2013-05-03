@@ -1,6 +1,6 @@
-bisque
+Roux
 ======
 
-Bisque is a framework for building Phonegap applications.
+Roux is a framework for building Phonegap applications.
 
-Bisque currently has support for page transitions, Mustache.js templates, fastclick and scrolling.
+Roux currently has support for page transitions, Mustache.js templates, fastclick and scrolling.
